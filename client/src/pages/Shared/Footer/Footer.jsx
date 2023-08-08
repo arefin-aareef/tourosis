@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    
       <footer className="footer p-10 bg-neutral text-neutral-content">
         <div>
           <svg
@@ -60,7 +60,6 @@ const Footer = () => {
           <p>Copyright © 2023 - All right reserved by Tourosis</p>
         </div>
       </footer>
-    </div>
   );
 };
 
