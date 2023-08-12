@@ -1,0 +1,147 @@
+[
+    {
+      "_id": 1,
+      "tour_name": "Scenic Mountain Adventure",
+      "tour_details": "2 days, 3 nights",
+      "image": "https://images.unsplash.com/photo-1569949381669-ecf31ae8e613?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dG91cnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+      "category": "Nature",
+      "price": 250.00
+    },
+    {
+      "_id": 2,
+      "tour_name": "Cultural City Tour",
+      "tour_details": "3 days, 4 nights",
+      "image": "https://example.com/images/city_tour.jpg",
+      "category": "Culture",
+      "price": 120.00
+    },
+    {
+      "_id": 3,
+      "tour_name": "Relaxing Beach Getaway",
+      "tour_details": "4 days, 5 nights",
+      "image": "https://example.com/images/beach_getaway.jpg",
+      "category": "Beach",
+      "price": 300.00
+    },
+    {
+      "_id": 4,
+      "tour_name": "Wildlife Safari Expedition",
+      "tour_details": "5 days, 6 nights",
+      "image": "https://example.com/images/safari_expedition.jpg",
+      "category": "Wildlife",
+      "price": 450.00
+    },
+    {
+      "_id": 5,
+      "tour_name": "Historical Landmarks Tour",
+      "tour_details": "4 days, 3 nights",
+      "image": "https://example.com/images/historical_landmarks.jpg",
+      "category": "History",
+      "price": 180.00
+    },
+    {
+      "_id": 6,
+      "tour_name": "Adventures in the Rainforest",
+      "tour_details": "3 days, 2 nights",
+      "image": "https://example.com/images/rainforest_adventures.jpg",
+      "category": "Adventure",
+      "price": 320.00
+    },
+    {
+      "_id": 7,
+      "tour_name": "Wine Tasting Tour",
+      "tour_details": "2 days, 2 nights",
+      "image": "https://example.com/images/wine_tasting.jpg",
+      "category": "Food & Drink",
+      "price": 150.00
+    },
+    {
+      "_id": 8,
+      "tour_name": "Romantic Gondola Ride",
+      "tour_details": "1 day, 1 night",
+      "image": "https://example.com/images/gondola_ride.jpg",
+      "category": "Romance",
+      "price": 200.00
+    },
+    {
+      "_id": 9,
+      "tour_name": "Snowy Mountain Retreat",
+      "tour_details": "3 days, 3 nights",
+      "image": "https://example.com/images/snowy_mountain.jpg",
+      "category": "Winter",
+      "price": 280.00
+    },
+    {
+      "_id": 10,
+      "tour_name": "Desert Expedition",
+      "tour_details": "4 days, 4 nights",
+      "image": "https://example.com/images/desert_expedition.jpg",
+      "category": "Desert",
+      "price": 190.00
+    },
+    {
+      "_id": 11,
+      "tour_name": "Mystical Caves Exploration",
+      "tour_details": "2 days, 2 nights",
+      "image": "https://example.com/images/caves_exploration.jpg",
+      "category": "Adventure",
+      "price": 260.00
+    },
+    {
+      "_id": 12,
+      "tour_name": "Cruise to Paradise Islands",
+      "tour_details": "7 days, 6 nights",
+      "image": "https://example.com/images/cruise_paradise.jpg",
+      "category": "Cruise",
+      "price": 500.00
+    },
+    {
+      "_id": 13,
+      "tour_name": "Eco-Friendly Nature Retreat",
+      "tour_details": "3 days, 2 nights",
+      "image": "https://example.com/images/eco_nature_retreat.jpg",
+      "category": "Nature",
+      "price": 180.00
+    },
+    {
+      "_id": 14,
+      "tour_name": "Urban Food Adventure",
+      "tour_details": "2 days, 2 nights",
+      "image": "https://example.com/images/food_adventure.jpg",
+      "category": "Adventure",
+      "price": 130.00
+    },
+    {
+      "_id": 15,
+      "tour_name": "Spiritual Retreat",
+      "tour_details": "4 days, 3 nights",
+      "image": "https://example.com/images/spiritual_retreat.jpg",
+      "category": "Wellness",
+      "price": 220.00
+    },
+    {
+      "_id": 16,
+      "tour_name": "Astronomy Night Expedition",
+      "tour_details": "1 day, 1 night",
+      "image": "https://example.com/images/astronomy_night.jpg",
+      "category": "Science",
+      "price": 150.00
+    },
+    {
+      "_id": 17,
+      "tour_name": "Horseback Highland Tour",
+      "tour_details": "3 days, 2 nights",
+      "image": "https://example.com/images/highland_tour.jpg",
+      "category": "Adventure",
+      "price": 190.00
+    },
+    {
+      "_id": 18,
+      "tour_name": "Tropical Paradise Escape",
+      "tour_details": "5 days, 4 nights",
+      "image": "https://example.com/images/tropical_escape.jpg",
+      "category": "Beach",
+      "price": 350.00
+    }
+  ]
+  
