@@ -13,17 +13,17 @@ const Tours = () => {
       });
   }, []);
   return (
-    <section>
+    <section className="my-8">
       <SectionTitle
         heading="Tour Packages"
         subHeading="Find Your Favorite Tour"
       ></SectionTitle>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10 my-6">
         {tour.map((item) => (
           <TourItem key={item._id} item={item}></TourItem>
         ))}
+      <button className="btn btn-neutral btn-outline col-start-2">View All Tours</button>
       </div>
-      <button className="btn border-y-2">View All Tours</button>
     </section>
   );
 };

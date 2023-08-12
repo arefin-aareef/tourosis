@@ -14,7 +14,7 @@ const NavBar = () => {
   );
   return (
     <>
-      <div className="navbar fixed z-10 bg-opacity-50 max-w-screen-xl bg-neutral text-neutral-content">
+      <div className="navbar fixed z-20 max-w-screen-xl bg-neutral text-neutral-content">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ const NavBar = () => {
           <a className="ms-2 text-2xl normal-case">Tourosis</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 ">{navOptions}</ul>
+          <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Sign In</a>

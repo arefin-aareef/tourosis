@@ -34,6 +34,7 @@ const Destination = () => {
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
+        initialSlide={2}
       >
         <SwiperSlide>
           <img src={img1} />
