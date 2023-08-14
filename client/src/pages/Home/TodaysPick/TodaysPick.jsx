@@ -4,7 +4,7 @@ import './TodaysPick.css'
 
 const TodaysPick = () => {
   return (
-    <div className="featured-item bg-fixed  text-white">
+    <div className="featured-item bg-fixed  text-white mb-4">
       <div className="bg-slate-500 bg-opacity-60 pt-8">
       <SectionTitle
         subHeading="Hot Deal For You"
