@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Destination from "../Destination/Destination";
+import TodaysPick from "../TodaysPick/TodaysPick";
 import Tours from "../Tours/Tours";
 
 
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <Destination></Destination>
             <Tours></Tours>
+            <TodaysPick></TodaysPick>
         </div>
     );
 };

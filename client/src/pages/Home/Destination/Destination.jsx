@@ -18,6 +18,7 @@ const Destination = () => {
       <SectionTitle
       subHeading={"Go On Weekends"}
       heading={"Popular Destinations"}
+      textColor="slate"
       ></SectionTitle>
       <Swiper
         effect={"coverflow"}

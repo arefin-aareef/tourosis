@@ -17,6 +17,7 @@ const Tours = () => {
       <SectionTitle
         heading="Tour Packages"
         subHeading="Find Your Favorite Tour"
+        textColor="slate"
       ></SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10 m-6">
         {tour.map((item) => (
