@@ -2,7 +2,7 @@
 const TourItem = ({ item }) => {
   const { image, price, tour_name, tour_details, tour_duration } = item;
   return (
-    <div className="card w-full shadow-xl image-full">
+    <div className=" card w-full shadow-xl image-full">
       <figure>
         <div>
         <img

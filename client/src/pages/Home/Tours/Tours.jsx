@@ -8,7 +8,7 @@ const Tours = () => {
     fetch("tours.json")
       .then((res) => res.json())
       .then((data) => {
-        const adventureTours = data.slice(0, 6)
+        const adventureTours = data.slice(0, 6);
         setTour(adventureTours);
       });
   }, []);
@@ -18,11 +18,13 @@ const Tours = () => {
         heading="Tour Packages"
         subHeading="Find Your Favorite Tour"
       ></SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10 my-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10 m-6">
         {tour.map((item) => (
           <TourItem key={item._id} item={item}></TourItem>
         ))}
-      <button className="btn btn-neutral btn-outline col-start-2">View All Tours</button>
+      </div>
+      <div className="flex justify-center">
+        <button className="btn btn-neutral btn-outline">View All Tours</button>
       </div>
     </section>
   );
