@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import TourItem from "../../Shared/TourItem/TourItem";
 
-const Tours = () => {
+const FavTour = () => {
   const [tour, setTour] = useState([]);
   useEffect(() => {
     fetch("tours.json")
@@ -31,4 +31,4 @@ const Tours = () => {
   );
 };
 
-export default Tours;
+export default FavTour;

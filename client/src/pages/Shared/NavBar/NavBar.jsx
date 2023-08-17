@@ -1,20 +1,23 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   const navOptions = (
     <>
       <li className="hover:bg-white rounded">
-        <a>Flight</a>
+        <Link>Flight</Link>
       </li>
       <li className="hover:bg-white rounded">
-        <a>Hotel</a>
+        <Link to="/tour">Tour</Link>
       </li>
       <li className="hover:bg-white rounded">
-        <a>Tour</a>
+        <Link>Hotel</Link>
       </li>
+      
     </>
   );
   return (
-    <>
-      <div className="navbar fixed z-20 max-w-screen-xl bg-neutral text-neutral-content">
+    <div className="">
+      <div className="navbar relative z-20 max-w-screen-xl bg-neutral text-neutral-content">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,7 +52,7 @@ const NavBar = () => {
           <a className="btn">Sign In</a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,8 +1,8 @@
 import Banner from "../Banner/Banner";
 import Destination from "../Destination/Destination";
+import FavTour from "../FavTour/FavTour";
 import Testimonials from "../Testimonials/Testimonials";
 import TodaysPick from "../TodaysPick/TodaysPick";
-import Tours from "../Tours/Tours";
 
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Destination></Destination>
-            <Tours></Tours>
+            <FavTour></FavTour>
             <TodaysPick></TodaysPick>
             <Testimonials></Testimonials>
         </div>
