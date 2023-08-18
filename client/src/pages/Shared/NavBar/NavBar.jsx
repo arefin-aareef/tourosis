@@ -10,7 +10,7 @@ const NavBar = () => {
         <Link to="/tour">Tour</Link>
       </li>
       <li className="hover:bg-white rounded">
-        <Link>Hotel</Link>
+        <Link to="/hotel">Hotel</Link>
       </li>
       
     </>
