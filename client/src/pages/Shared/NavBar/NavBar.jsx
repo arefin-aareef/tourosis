@@ -4,10 +4,13 @@ const NavBar = () => {
   const navOptions = (
     <>
       <li className="hover:bg-white rounded">
-        <Link>Flight</Link>
+        <Link to="/">Home</Link>
       </li>
       <li className="hover:bg-white rounded">
         <Link to="/tour">Tour</Link>
+      </li>
+      <li className="hover:bg-white rounded">
+        <Link to="/flight">Flight</Link>
       </li>
       <li className="hover:bg-white rounded">
         <Link to="/hotel">Hotel</Link>
