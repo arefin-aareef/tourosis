@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const navOptions = (
     <>
-      <li className="hover:bg-white rounded">
+      <li className="focus:bg-none">
         <Link to="/">Home</Link>
       </li>
       <li className="hover:bg-white rounded">
@@ -20,7 +20,7 @@ const NavBar = () => {
   );
   return (
     <div className="">
-      <div className="navbar relative z-20 max-w-screen-xl bg-neutral text-neutral-content">
+      <div className="navbar relative z-20 max-w-screen-xl text-black">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
