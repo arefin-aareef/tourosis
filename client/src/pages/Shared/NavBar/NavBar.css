@@ -1,0 +1,14 @@
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+  background: black;
+}
+
+.nav-link:focus {
+  outline: none !important;
+  background-color: white !important;
+}

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import Cover from "../../Shared/Cover/Cover";
 
 const Tour = () => {
   return (
@@ -6,7 +7,7 @@ const Tour = () => {
       <Helmet>
         <title>Tourosis | Tour</title>
       </Helmet>
-      <h2>Tour</h2>
+      <Cover></Cover>
     </div>
   );
 };

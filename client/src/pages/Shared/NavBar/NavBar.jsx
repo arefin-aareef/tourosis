@@ -1,26 +1,26 @@
 import { Link } from "react-router-dom";
+import './NavBar.css'
 
 const NavBar = () => {
   const navOptions = (
     <>
-      <li className="focus:bg-none">
-        <Link to="/">Home</Link>
-      </li>
-      <li className="hover:bg-white rounded">
-        <Link to="/tour">Tour</Link>
-      </li>
-      <li className="hover:bg-white rounded">
-        <Link to="/flight">Flight</Link>
-      </li>
-      <li className="hover:bg-white rounded">
-        <Link to="/hotel">Hotel</Link>
-      </li>
-      
-    </>
+    <li className="">
+      <Link to="/" className="nav-link">Home</Link>
+    </li>
+    <li className="">
+      <Link to="/tour" className="nav-link">Tour</Link>
+    </li>
+    <li className="">
+      <Link to="/flight" className="nav-link">Flight</Link>
+    </li>
+    <li className="">
+      <Link to="/hotel" className="nav-link">Hotel</Link>
+    </li>
+  </>
   );
   return (
-    <div className="">
-      <div className="navbar   z-20 max-w-screen-xl text-black">
+
+      <div className="navbar z-20 fixed bg-black bg-opacity-50 text-white max-w-screen-xl ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -55,7 +55,7 @@ const NavBar = () => {
           <a className="btn">Sign In</a>
         </div>
       </div>
-    </div>
+
   );
 };
 
