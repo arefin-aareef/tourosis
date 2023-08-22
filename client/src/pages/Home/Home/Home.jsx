@@ -6,11 +6,6 @@ import TodaysPick from "../TodaysPick/TodaysPick";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
-  const favTourValue = 3;
-  const category = "Adventure";
-  const secHeading = "Tour Packages"
-  const secSubHeading = "Find Your Favorite Tour"
-  const secColor = "slate"
   return (
     <div>
       <Helmet>
@@ -18,13 +13,7 @@ const Home = () => {
       </Helmet>
       <Banner></Banner>
       <Destination></Destination>
-      <FavTour 
-      sliceValue={favTourValue} 
-      tourCategory={category}
-      titleHeading={secHeading}
-      titleSubHeading={secSubHeading}
-      titleColor={secColor}
-      ></FavTour>
+      <FavTour></FavTour>
       <TodaysPick></TodaysPick>
       <Testimonials></Testimonials>
     </div>
