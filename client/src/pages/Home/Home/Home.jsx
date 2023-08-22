@@ -6,6 +6,8 @@ import TodaysPick from "../TodaysPick/TodaysPick";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
+  const favTourValue = 3;
+  const category = "Adventure";
   return (
     <div>
       <Helmet>
@@ -13,7 +15,7 @@ const Home = () => {
       </Helmet>
       <Banner></Banner>
       <Destination></Destination>
-      <FavTour></FavTour>
+      <FavTour sliceValue={favTourValue} tourCategory={category}></FavTour>
       <TodaysPick></TodaysPick>
       <Testimonials></Testimonials>
     </div>
