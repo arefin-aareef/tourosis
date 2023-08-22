@@ -60,8 +60,8 @@
     "tour_name": "Wine Tasting Tour",
     "tour_duration": "2 days, 2 nights",
     "tour_details": "Savor the finest wines and culinary delights in picturesque vineyards.",
-    "image": "https://example.com/images/wine_tasting.jpg",
-    "category": "Food & Drink",
+    "image": "https://images.pexels.com/photos/17892506/pexels-photo-17892506/free-photo-of-old-mill-in-vernon-france.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Culture",
     "price": 150.0
   },
   {
@@ -96,7 +96,7 @@
     "tour_name": "Mystical Caves Exploration",
     "tour_duration": "2 days, 2 nights",
     "tour_details": "Unveil the secrets of mysterious caves on an exciting underground adventure.",
-    "image": "https://example.com/images/caves_exploration.jpg",
+    "image": "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=600",
     "category": "Adventure",
     "price": 260.0
   },
@@ -114,7 +114,7 @@
     "tour_name": "Eco-Friendly Nature Retreat",
     "tour_duration": "3 days, 2 nights",
     "tour_details": "Reconnect with nature in a sustainable retreat surrounded by natural beauty.",
-    "image": "https://example.com/images/eco_nature_retreat.jpg",
+    "image": "https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&w=600",
     "category": "Nature",
     "price": 180.0
   },
@@ -123,7 +123,7 @@
     "tour_name": "Urban Food Adventure",
     "tour_duration": "2 days, 2 nights",
     "tour_details": "Embark on a culinary journey, exploring the vibrant flavors of the city.",
-    "image": "https://example.com/images/food_adventure.jpg",
+    "image": "https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg?auto=compress&cs=tinysrgb&w=600",
     "category": "Adventure",
     "price": 130.0
   },
@@ -132,8 +132,8 @@
     "tour_name": "Spiritual Retreat",
     "tour_duration": "4 days, 3 nights",
     "tour_details": "Rejuvenate your soul through meditation, mindfulness, and spiritual practices.",
-    "image": "https://example.com/images/spiritual_retreat.jpg",
-    "category": "Wellness",
+    "image": "https://images.pexels.com/photos/17884095/pexels-photo-17884095/free-photo-of-panorama-of-valley-near-mount-morgan-california-usa.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Nature",
     "price": 220.0
   },
   {
@@ -141,8 +141,8 @@
     "tour_name": "Astronomy Night Expedition",
     "tour_duration": "1 day, 1 night",
     "tour_details": "Witness the wonders of the night sky through a guided astronomy adventure.",
-    "image": "https://example.com/images/astronomy_night.jpg",
-    "category": "Science",
+    "image": "https://images.pexels.com/photos/532263/pexels-photo-532263.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Culture",
     "price": 150.0
   },
   {
@@ -150,8 +150,8 @@
     "tour_name": "Horseback Highland Tour",
     "tour_duration": "3 days, 2 nights",
     "tour_details": "Explore the rugged highlands on horseback for a true outdoor escapade.",
-    "image": "https://example.com/images/highland_tour.jpg",
-    "category": "Adventure",
+    "image": "https://images.pexels.com/photos/533769/pexels-photo-533769.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Beach",
     "price": 190.0
   },
   {
@@ -159,7 +159,7 @@
     "tour_name": "Tropical Paradise Escape",
     "tour_duration": "5 days, 4 nights",
     "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
-    "image": "https://example.com/images/tropical_escape.jpg",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
     "category": "Beach",
     "price": 350.0
   }
