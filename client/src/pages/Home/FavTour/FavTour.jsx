@@ -5,7 +5,7 @@ import TourItem from "../../Shared/TourItem/TourItem";
 const FavTour = () => {
 
   const [tour] = useTours()
-  const adventure = tour.filter(item => item.category === "Adventure")
+  const adventure = tour.filter(item => item.category === "Adventure").slice(0, 3)
 
   return (
     <section className="my-8">

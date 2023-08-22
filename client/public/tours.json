@@ -17,7 +17,6 @@
     "category": "Nature",
     "price": 250.0
   },
-
   {
     "_id": 3,
     "tour_name": "Relaxing Beach Getaway",
@@ -34,7 +33,7 @@
     "tour_duration": "5 days, 6 nights",
     "tour_details": "Embark on an unforgettable journey through the heart of the wilderness.",
     "image": "https://images.unsplash.com/photo-1541300613939-71366b37c92e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-    "category": "Wildlife",
+    "category": "History",
     "price": 450.0
   },
   {
@@ -66,11 +65,11 @@
   },
   {
     "_id": 8,
-    "tour_name": "Romantic Gondola Ride",
+    "tour_name": "History Gondola Ride",
     "tour_duration": "1 day, 1 night",
     "tour_details": "Indulge in a magical gondola ride along charming canals, perfect for couples.",
-    "image": "https://example.com/images/gondola_ride.jpg",
-    "category": "Romance",
+    "image": "https://images.pexels.com/photos/815880/pexels-photo-815880.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "History",
     "price": 200.0
   },
   {
@@ -78,8 +77,8 @@
     "tour_name": "Snowy Mountain Retreat",
     "tour_duration": "3 days, 3 nights",
     "tour_details": "Escape to a serene snowy paradise with cozy cabins and winter activities.",
-    "image": "https://example.com/images/snowy_mountain.jpg",
-    "category": "Winter",
+    "image": "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "History",
     "price": 280.0
   },
   {
@@ -87,8 +86,8 @@
     "tour_name": "Desert Expedition",
     "tour_duration": "4 days, 4 nights",
     "tour_details": "Conquer the majestic desert landscapes and experience its unique beauty.",
-    "image": "https://example.com/images/desert_expedition.jpg",
-    "category": "Desert",
+    "image": "https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Adventure",
     "price": 190.0
   },
   {
@@ -105,8 +104,8 @@
     "tour_name": "Cruise to Paradise Islands",
     "tour_duration": "7 days, 6 nights",
     "tour_details": "Set sail on a luxurious cruise to enchanting islands with pristine beaches.",
-    "image": "https://example.com/images/cruise_paradise.jpg",
-    "category": "Cruise",
+    "image": "https://images.pexels.com/photos/945177/pexels-photo-945177.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Nature",
     "price": 500.0
   },
   {
@@ -161,6 +160,24 @@
     "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
     "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
     "category": "Beach",
+    "price": 350.0
+  },
+  {
+    "_id": 19,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Nature",
+    "price": 350.0
+  },
+  {
+    "_id": 20,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Culture",
     "price": 350.0
   }
 ]

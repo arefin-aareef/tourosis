@@ -1,19 +1,32 @@
 import { Helmet } from "react-helmet-async";
-import Cover from "../../Shared/Cover/Cover";
+import useTours from "../../../hooks/useTours";
+import TourCategory from "../TourCategory/TourCategory";
 import tourCover1 from "../../../assets/cover/cover1.jpg";
-const Tour = () => {
+import tourCover2 from "../../../assets/cover/cover2.jpg";
+import tourCover3 from "../../../assets/cover/cover3.jpg";
+import tourCover4 from "../../../assets/cover/cover4.jpg";
+import tourCover5 from "../../../assets/cover/cover5.jpg";
 
+const Tour = () => {
+  const [tour] = useTours()
+  const adventure = tour.filter(item => item.category === "Adventure")
+  const beach = tour.filter(item => item.category === "Beach")
+  const nature = tour.filter(item => item.category === "Nature")
+  const culture = tour.filter(item => item.category === "Culture")
+  const history = tour.filter(item => item.category === "History")
   return (
     <div>
       <Helmet>
         <title>Tourosis | Tour</title>
       </Helmet>
 
-      <Cover
-        img={tourCover1}
-        title="Best Adventure Tour Packages"
-        description="Experience the world's wonders hassle-free with our handpicked collection of Best Tour Packages. From captivating destinations to seamless planning, your dream vacation starts here."
-      ></Cover>
+      <TourCategory items={adventure} title="Adventure" coverImg={tourCover1}></TourCategory>
+      <TourCategory items={nature} title="Nature" coverImg={tourCover2}></TourCategory>
+      <TourCategory items={beach} title="Beach" coverImg={tourCover3}></TourCategory>
+      <TourCategory items={culture} title="Culture" coverImg={tourCover4}></TourCategory>
+      <TourCategory items={history} title="History" coverImg={tourCover5}></TourCategory>
+
+
     </div>
   );
 };
