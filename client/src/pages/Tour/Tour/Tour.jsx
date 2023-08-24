@@ -19,7 +19,6 @@ const Tour = () => {
       <Helmet>
         <title>Tourosis | Tour</title>
       </Helmet>
-
       <TourCategory items={adventure} title="Adventure" coverImg={tourCover1}></TourCategory>
       <TourCategory items={nature} title="Nature" coverImg={tourCover2}></TourCategory>
       <TourCategory items={beach} title="Beach" coverImg={tourCover3}></TourCategory>
