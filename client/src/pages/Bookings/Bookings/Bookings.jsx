@@ -31,13 +31,13 @@ const Bookings = () => {
         title="Book Your Tour"
         description="Elevate your travel planning with our seamless online tour booking services."
       ></Cover>
-      <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-        <TabList>
-          <Tab>Adventure</Tab>
-          <Tab>Beach</Tab>
-          <Tab>Nature</Tab>
-          <Tab>Culture</Tab>
-          <Tab>History</Tab>
+      <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="">
+      <TabList className="text-white bg-black mb-4 p-4 text-center text-lg bg-opacity-70 shadow-md sticky top-[64px] lg:top-[76px] z-10">
+          <Tab >Adventure</Tab>
+          <Tab >Beach</Tab>
+          <Tab >Nature</Tab>
+          <Tab >Culture</Tab>
+          <Tab >History</Tab>
         </TabList>
         <TabPanel>
             <BookingsTab items={adventure}></BookingsTab>

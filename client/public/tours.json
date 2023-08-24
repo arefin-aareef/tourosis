@@ -360,5 +360,367 @@
     "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
     "category": "culture",
     "price": 350.0
+  },
+  {
+    "_id": 41,
+    "tour_name": "Cultural City Tour",
+    "tour_duration": "3 days, 4 nights",
+    "tour_details": "Immerse yourself in the rich cultural heritage of the city's historic landmarks.",
+    "image": "https://images.unsplash.com/photo-1616038242814-a6eac7845d88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "culture",
+    "price": 120.0
+  },
+  {
+    "_id": 42,
+    "tour_name": "Scenic Mountain Adventure",
+    "tour_duration": "2 days, 3 nights",
+    "tour_details": "Explore breathtaking mountain vistas and enjoy exciting outdoor activities.",
+    "image": "https://images.unsplash.com/photo-1465778893808-9b3d1b443be4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG91cnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "nature",
+    "price": 250.0
+  },
+  {
+    "_id": 43,
+    "tour_name": "Relaxing Beach Getaway",
+    "tour_duration": "4 days, 5 nights",
+    "tour_details": "Unwind on the sandy shores, bask in the sun, and indulge in water sports.",
+
+    "image": "https://images.unsplash.com/photo-1615277716590-d87d101caa70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "beach",
+    "price": 300.0
+  },
+  {
+    "_id": 44,
+    "tour_name": "Wildlife Safari Expedition",
+    "tour_duration": "5 days, 6 nights",
+    "tour_details": "Embark on an unforgettable journey through the heart of the wilderness.",
+    "image": "https://images.unsplash.com/photo-1541300613939-71366b37c92e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "history",
+    "price": 450.0
+  },
+  {
+    "_id": 45,
+    "tour_name": "Historical Landmarks Tour",
+    "tour_duration": "4 days, 3 nights",
+    "tour_details": "Discover the fascinating stories behind the city's most iconic historical sites.",
+    "image": "https://images.unsplash.com/photo-1616038242814-a6eac7845d88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "history",
+    "price": 180.0
+  },
+  {
+    "_id": 46,
+    "tour_name": "Adventures in the Rainforest",
+    "tour_duration": "3 days, 2 nights",
+    "tour_details": "Embark on a thrilling journey through the lush rainforest and its hidden treasures.",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG91cnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "adventure",
+    "price": 320.0
+  },
+  {
+    "_id": 47,
+    "tour_name": "Wine Tasting Tour",
+    "tour_duration": "2 days, 2 nights",
+    "tour_details": "Savor the finest wines and culinary delights in picturesque vineyards.",
+    "image": "https://images.pexels.com/photos/17892506/pexels-photo-17892506/free-photo-of-old-mill-in-vernon-france.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "culture",
+    "price": 150.0
+  },
+  {
+    "_id": 48,
+    "tour_name": "History Gondola Ride",
+    "tour_duration": "1 day, 1 night",
+    "tour_details": "Indulge in a magical gondola ride along charming canals, perfect for couples.",
+    "image": "https://images.pexels.com/photos/815880/pexels-photo-815880.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "history",
+    "price": 200.0
+  },
+  {
+    "_id": 49,
+    "tour_name": "Snowy Mountain Retreat",
+    "tour_duration": "3 days, 3 nights",
+    "tour_details": "Escape to a serene snowy paradise with cozy cabins and winter activities.",
+    "image": "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "history",
+    "price": 280.0
+  },
+  {
+    "_id": 50,
+    "tour_name": "Desert Expedition",
+    "tour_duration": "4 days, 4 nights",
+    "tour_details": "Conquer the majestic desert landscapes and experience its unique beauty.",
+    "image": "https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "adventure",
+    "price": 190.0
+  },
+  {
+    "_id": 51,
+    "tour_name": "Mystical Caves Exploration",
+    "tour_duration": "2 days, 2 nights",
+    "tour_details": "Unveil the secrets of mysterious caves on an exciting underground adventure.",
+    "image": "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "adventure",
+    "price": 260.0
+  },
+  {
+    "_id": 52,
+    "tour_name": "Cruise to Paradise Islands",
+    "tour_duration": "7 days, 6 nights",
+    "tour_details": "Set sail on a luxurious cruise to enchanting islands with pristine beaches.",
+    "image": "https://images.pexels.com/photos/945177/pexels-photo-945177.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 500.0
+  },
+  {
+    "_id": 53,
+    "tour_name": "Eco-Friendly Nature Retreat",
+    "tour_duration": "3 days, 2 nights",
+    "tour_details": "Reconnect with nature in a sustainable retreat surrounded by natural beauty.",
+    "image": "https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 180.0
+  },
+  {
+    "_id": 54,
+    "tour_name": "Urban Food Adventure",
+    "tour_duration": "2 days, 2 nights",
+    "tour_details": "Embark on a culinary journey, exploring the vibrant flavors of the city.",
+    "image": "https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "adventure",
+    "price": 130.0
+  },
+  {
+    "_id": 55,
+    "tour_name": "Spiritual Retreat",
+    "tour_duration": "4 days, 3 nights",
+    "tour_details": "Rejuvenate your soul through meditation, mindfulness, and spiritual practices.",
+    "image": "https://images.pexels.com/photos/17884095/pexels-photo-17884095/free-photo-of-panorama-of-valley-near-mount-morgan-california-usa.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 220.0
+  },
+  {
+    "_id": 56,
+    "tour_name": "Astronomy Night Expedition",
+    "tour_duration": "1 day, 1 night",
+    "tour_details": "Witness the wonders of the night sky through a guided astronomy adventure.",
+    "image": "https://images.pexels.com/photos/532263/pexels-photo-532263.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "culture",
+    "price": 150.0
+  },
+  {
+    "_id": 57,
+    "tour_name": "Horseback Highland Tour",
+    "tour_duration": "3 days, 2 nights",
+    "tour_details": "Explore the rugged highlands on horseback for a true outdoor escapade.",
+    "image": "https://images.pexels.com/photos/533769/pexels-photo-533769.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "beach",
+    "price": 190.0
+  },
+  {
+    "_id": 58,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "beach",
+    "price": 350.0
+  },
+  {
+    "_id": 59,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 350.0
+  },
+  {
+    "_id": 60,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "culture",
+    "price": 350.0
+  },
+  {
+    "_id": 61,
+    "tour_name": "Cultural City Tour",
+    "tour_duration": "3 days, 4 nights",
+    "tour_details": "Immerse yourself in the rich cultural heritage of the city's historic landmarks.",
+    "image": "https://images.unsplash.com/photo-1616038242814-a6eac7845d88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "culture",
+    "price": 120.0
+  },
+  {
+    "_id": 62,
+    "tour_name": "Scenic Mountain Adventure",
+    "tour_duration": "2 days, 3 nights",
+    "tour_details": "Explore breathtaking mountain vistas and enjoy exciting outdoor activities.",
+    "image": "https://images.unsplash.com/photo-1465778893808-9b3d1b443be4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dG91cnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "nature",
+    "price": 250.0
+  },
+  {
+    "_id": 63,
+    "tour_name": "Relaxing Beach Getaway",
+    "tour_duration": "4 days, 5 nights",
+    "tour_details": "Unwind on the sandy shores, bask in the sun, and indulge in water sports.",
+
+    "image": "https://images.unsplash.com/photo-1615277716590-d87d101caa70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "beach",
+    "price": 300.0
+  },
+  {
+    "_id": 64,
+    "tour_name": "Wildlife Safari Expedition",
+    "tour_duration": "5 days, 6 nights",
+    "tour_details": "Embark on an unforgettable journey through the heart of the wilderness.",
+    "image": "https://images.unsplash.com/photo-1541300613939-71366b37c92e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "history",
+    "price": 450.0
+  },
+  {
+    "_id": 65,
+    "tour_name": "Historical Landmarks Tour",
+    "tour_duration": "4 days, 3 nights",
+    "tour_details": "Discover the fascinating stories behind the city's most iconic historical sites.",
+    "image": "https://images.unsplash.com/photo-1616038242814-a6eac7845d88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHRvdXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "history",
+    "price": 180.0
+  },
+  {
+    "_id": 66,
+    "tour_name": "Adventures in the Rainforest",
+    "tour_duration": "3 days, 2 nights",
+    "tour_details": "Embark on a thrilling journey through the lush rainforest and its hidden treasures.",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG91cnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "adventure",
+    "price": 320.0
+  },
+  {
+    "_id": 67,
+    "tour_name": "Wine Tasting Tour",
+    "tour_duration": "2 days, 2 nights",
+    "tour_details": "Savor the finest wines and culinary delights in picturesque vineyards.",
+    "image": "https://images.pexels.com/photos/17892506/pexels-photo-17892506/free-photo-of-old-mill-in-vernon-france.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "culture",
+    "price": 150.0
+  },
+  {
+    "_id": 68,
+    "tour_name": "History Gondola Ride",
+    "tour_duration": "1 day, 1 night",
+    "tour_details": "Indulge in a magical gondola ride along charming canals, perfect for couples.",
+    "image": "https://images.pexels.com/photos/815880/pexels-photo-815880.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "history",
+    "price": 200.0
+  },
+  {
+    "_id": 69,
+    "tour_name": "Snowy Mountain Retreat",
+    "tour_duration": "3 days, 3 nights",
+    "tour_details": "Escape to a serene snowy paradise with cozy cabins and winter activities.",
+    "image": "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "history",
+    "price": 280.0
+  },
+  {
+    "_id": 70,
+    "tour_name": "Desert Expedition",
+    "tour_duration": "4 days, 4 nights",
+    "tour_details": "Conquer the majestic desert landscapes and experience its unique beauty.",
+    "image": "https://images.pexels.com/photos/459203/pexels-photo-459203.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "adventure",
+    "price": 190.0
+  },
+  {
+    "_id": 71,
+    "tour_name": "Mystical Caves Exploration",
+    "tour_duration": "2 days, 2 nights",
+    "tour_details": "Unveil the secrets of mysterious caves on an exciting underground adventure.",
+    "image": "https://images.pexels.com/photos/632522/pexels-photo-632522.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "adventure",
+    "price": 260.0
+  },
+  {
+    "_id": 72,
+    "tour_name": "Cruise to Paradise Islands",
+    "tour_duration": "7 days, 6 nights",
+    "tour_details": "Set sail on a luxurious cruise to enchanting islands with pristine beaches.",
+    "image": "https://images.pexels.com/photos/945177/pexels-photo-945177.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 500.0
+  },
+  {
+    "_id": 73,
+    "tour_name": "Eco-Friendly Nature Retreat",
+    "tour_duration": "3 days, 2 nights",
+    "tour_details": "Reconnect with nature in a sustainable retreat surrounded by natural beauty.",
+    "image": "https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 180.0
+  },
+  {
+    "_id": 74,
+    "tour_name": "Urban Food Adventure",
+    "tour_duration": "2 days, 2 nights",
+    "tour_details": "Embark on a culinary journey, exploring the vibrant flavors of the city.",
+    "image": "https://images.pexels.com/photos/1179156/pexels-photo-1179156.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "adventure",
+    "price": 130.0
+  },
+  {
+    "_id": 75,
+    "tour_name": "Spiritual Retreat",
+    "tour_duration": "4 days, 3 nights",
+    "tour_details": "Rejuvenate your soul through meditation, mindfulness, and spiritual practices.",
+    "image": "https://images.pexels.com/photos/17884095/pexels-photo-17884095/free-photo-of-panorama-of-valley-near-mount-morgan-california-usa.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 220.0
+  },
+  {
+    "_id": 76,
+    "tour_name": "Astronomy Night Expedition",
+    "tour_duration": "1 day, 1 night",
+    "tour_details": "Witness the wonders of the night sky through a guided astronomy adventure.",
+    "image": "https://images.pexels.com/photos/532263/pexels-photo-532263.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "culture",
+    "price": 150.0
+  },
+  {
+    "_id": 77,
+    "tour_name": "Horseback Highland Tour",
+    "tour_duration": "3 days, 2 nights",
+    "tour_details": "Explore the rugged highlands on horseback for a true outdoor escapade.",
+    "image": "https://images.pexels.com/photos/533769/pexels-photo-533769.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "beach",
+    "price": 190.0
+  },
+  {
+    "_id": 78,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "beach",
+    "price": 350.0
+  },
+  {
+    "_id": 79,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "nature",
+    "price": 350.0
+  },
+  {
+    "_id": 80,
+    "tour_name": "Tropical Paradise Escape",
+    "tour_duration": "5 days, 4 nights",
+    "tour_details": "Experience the ultimate tropical paradise with turquoise waters and white sands.",
+    "image": "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "culture",
+    "price": 350.0
   }
 ]

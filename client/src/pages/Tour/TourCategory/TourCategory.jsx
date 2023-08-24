@@ -19,7 +19,7 @@ const TourCategory = ({ items, title, coverImg }) => {
       </div>
       <div className="flex justify-center">
         <Link to={`/bookings/${title}`}>
-          <button className="btn btn-neutral btn-outline mb-4">
+          <button className="btn btn-outline mb-4">
             See All Available Tours
           </button>
         </Link>

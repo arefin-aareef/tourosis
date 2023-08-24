@@ -8,6 +8,10 @@
   background: black;
 }
 
+.nav-link:active {
+  color: black !important;
+}
+
 .nav-link:focus {
   outline: none !important;
   background-color: white !important;
