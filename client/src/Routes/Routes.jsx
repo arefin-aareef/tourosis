@@ -6,6 +6,7 @@ import Bookings from "../pages/Bookings/Bookings/Bookings";
 import Flight from "../pages/Flight/Flight/Flight";
 import Home from "../pages/Home/Home/Home";
 import Hotel from "../pages/Hotel/Hotel/Hotel";
+import Login from "../pages/Login/Login";
 import Tour from "../pages/Tour/Tour/Tour";
 
 export const router = createBrowserRouter([
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
         {
           path: 'bookings/:category',
           element: <Bookings></Bookings>
+        },
+        {
+          path: 'login',
+          element: <Login></Login>
         }
       ]
     },
