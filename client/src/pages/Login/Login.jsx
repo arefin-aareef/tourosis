@@ -1,4 +1,5 @@
 import { useContext, useEffect, useRef, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import {
   loadCaptchaEnginge,
@@ -40,6 +41,10 @@ const Login = () => {
     }
   };
   return (
+    <>
+    <Helmet>
+        <title>Tourosis | Login</title>
+      </Helmet>
     <div className="hero min-h-screen bg-base-200">
       <div className="hero-content flex-col md:flex-row-reverse">
         <div className="text-center w-1/2 lg:text-left">
@@ -105,6 +110,7 @@ const Login = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
