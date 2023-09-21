@@ -1,5 +1,8 @@
 const BookingCard = ({ item }) => {
   const { image, price, tour_name, tour_details, tour_duration } = item;
+  const handleAddToCart = item => {
+    console.log(item);
+  }
   return (
     <div className="flex flex-col items-center p-2">
       <div className="card w-96 bg-base-100 shadow-xl">
@@ -12,7 +15,7 @@ const BookingCard = ({ item }) => {
           <p>{tour_details}</p>
           <p>Duration: <span className="font-semibold">{tour_duration}</span></p>
           <div className="card-actions justify-end">
-            <button className="btn btn-neutral btn-outline">Book Now</button>
+            <button onClick={() => handleAddToCart(item)} className="btn btn-neutral btn-outline">Select Tour</button>
           </div>
         </div>
       </div>

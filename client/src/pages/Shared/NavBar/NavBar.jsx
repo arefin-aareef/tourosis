@@ -2,6 +2,8 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 import "./NavBar.css";
+import { AiOutlineShoppingCart } from 'react-icons/ai';
+
 
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -37,6 +39,14 @@ const NavBar = () => {
       <li className="">
         <Link to="/bookings/adventure" className="nav-link">
           Bookings
+        </Link>
+      </li>
+      <li className="my-auto">
+        <Link to="/bookings/adventure" className="nav-link">
+          <button className="flex">
+            <AiOutlineShoppingCart />
+            <div className="badge badge-secondary">+0</div>
+          </button>
         </Link>
       </li>
     </>
@@ -76,7 +86,13 @@ const NavBar = () => {
       {user ? (
         <>
           <div className="navbar-end">
-            <span className="me-2"><img style={{width: 48, height: 48, borderRadius: '20%'}} src={user?.photoURL} alt={user?.displayName}  /></span>
+            <span className="me-2">
+              <img
+                style={{ width: 48, height: 48, borderRadius: "20%" }}
+                src={user?.photoURL}
+                alt={user?.displayName}
+              />
+            </span>
             <Link onClick={handleLogOut} to="/" className="btn">
               Log Out
             </Link>
