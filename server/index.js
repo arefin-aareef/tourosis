@@ -28,6 +28,7 @@ async function run() {
 
     const tourCollection = client.db("tourosisDB").collection("tour");
     const reviewCollection = client.db("tourosisDB").collection("review");
+    const cartCollection = client.db("tourosisDB").collection("carts");
 
     app.get('/tour', async(req, res) => {
         const result = await tourCollection.find().toArray()
@@ -37,6 +38,13 @@ async function run() {
     app.get('/review', async(req, res) => {
         const result = await reviewCollection.find().toArray()
         res.send(result)
+    })
+
+    app.post('/carts', async(req, res) => {
+      const item = req.body
+      console.log(item);
+      const result = await cartCollection.insertOne(item)
+      res.send(result)
     })
 
 

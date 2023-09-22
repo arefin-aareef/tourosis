@@ -42,7 +42,7 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="my-auto">
-        <Link to="/bookings/adventure" className="nav-link">
+        <Link to="" className="nav-link">
           <button className="flex">
             <AiOutlineShoppingCart />
             <div className="badge badge-secondary">+0</div>
