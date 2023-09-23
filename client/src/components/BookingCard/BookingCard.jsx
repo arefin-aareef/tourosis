@@ -1,25 +1,33 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from 'sweetalert2'
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 
 const BookingCard = ({ item }) => {
-  const { image, price, tour_name, tour_details, tour_duration } = item;
+  const { image, price, tour_name, tour_details, tour_duration, _id } = item;
   const {user} =useContext(AuthContext)
   const navigate = useNavigate();
+  const location = useLocation();
 
   const handleAddToCart = item => {
     console.log(item);
-    if(user) {
-      fetch('http://localhost:5000/carts')
+    if(user && user.email) {
+      const cartItem = {tourItemId: _id, image, price, tour_name, tour_details, tour_duration, email: user.email}
+      fetch('http://localhost:5000/carts', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json'
+        },
+        body: JSON.stringify(cartItem)
+      })
       .then(res => res.json())
       .then(data => {
         if(data.insertedId){
           Swal.fire({
             position: 'top-end',
             icon: 'success',
-            title: 'Your work has been saved',
+            title: 'Your Tour Added To Cart',
             showConfirmButton: false,
             timer: 1500
           })
@@ -35,7 +43,7 @@ const BookingCard = ({ item }) => {
         confirmButtonText: 'Login Now!'
       }).then((result) => {
         if (result.isConfirmed) {
-          navigate('/login')
+          navigate('/login', {state: {from: location}})
         }
       })
     }
