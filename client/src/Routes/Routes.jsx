@@ -1,8 +1,10 @@
 import {
     createBrowserRouter,
   } from "react-router-dom";
+import Dashboard from "../Layout/Dashboard";
 import Main from "../Layout/Main";
 import Bookings from "../pages/Bookings/Bookings/Bookings";
+import MyCart from "../pages/Dashboard/MyCart/MyCart";
 import Flight from "../pages/Flight/Flight/Flight";
 import Home from "../pages/Home/Home/Home";
 import Hotel from "../pages/Hotel/Hotel/Hotel";
@@ -45,4 +47,14 @@ export const router = createBrowserRouter([
         }
       ]
     },
+    {
+      path: 'dashboard',
+      element: <Dashboard></Dashboard>,
+      children: [
+        {
+          path: "mycart",
+          element: <MyCart></MyCart>
+        }
+      ]
+    }
   ]);
