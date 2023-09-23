@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 import "./NavBar.css";
 import { AiOutlineShoppingCart } from 'react-icons/ai';
+import useCart from "../../../hooks/useCart";
 
 
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
+  const [cart] = useCart()
 
   const handleLogOut = () => {
     logOut()
@@ -14,7 +16,7 @@ const NavBar = () => {
       .catch((error) => console.log(error));
   };
   
-  
+
 
   const navOptions = (
     <>
@@ -47,7 +49,7 @@ const NavBar = () => {
         <Link to="" className="nav-link">
           <button className="flex">
             <AiOutlineShoppingCart />
-            <div className="badge badge-secondary">+0</div>
+            <div className="badge badge-secondary">+{cart?.length || 0}</div>
           </button>
         </Link>
       </li>
