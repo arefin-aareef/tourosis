@@ -46,7 +46,7 @@ const NavBar = () => {
         </Link>
       </li>
       <li className="my-auto">
-        <Link to="/dashboard/mycart" className="nav-link">
+        <Link to="/dashboard/home" className="nav-link">
           <button className="flex">
             <AiOutlineShoppingCart />
             <div className="badge badge-secondary">+{cart?.length || 0}</div>

@@ -4,7 +4,10 @@ import {
 import Dashboard from "../Layout/Dashboard";
 import Main from "../Layout/Main";
 import Bookings from "../pages/Bookings/Bookings/Bookings";
+import HomeDashboard from "../pages/Dashboard/HomeDashboard/HomeDashboard";
 import MyCart from "../pages/Dashboard/MyCart/MyCart";
+import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
+import Reservations from "../pages/Dashboard/Reservations/Reservations";
 import Flight from "../pages/Flight/Flight/Flight";
 import Home from "../pages/Home/Home/Home";
 import Hotel from "../pages/Hotel/Hotel/Hotel";
@@ -52,8 +55,20 @@ export const router = createBrowserRouter([
       element: <Dashboard></Dashboard>,
       children: [
         {
+          path: "home",
+          element: <HomeDashboard></HomeDashboard>
+        },
+        {
           path: "mycart",
           element: <MyCart></MyCart>
+        },
+        {
+          path: "reservation",
+          element: <Reservations></Reservations>
+        },
+        {
+          path: "payment",
+          element: <PaymentHistory></PaymentHistory>
         }
       ]
     }
