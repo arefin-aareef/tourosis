@@ -110,6 +110,7 @@ const NavBar = () => {
                 style={{ width: 48, height: 48, borderRadius: "20%" }}
                 src={user?.photoURL}
                 alt={user?.displayName}
+                title={user?.email}
               />
             </span>
             <Link onClick={handleLogOut} to="/" className="btn">
