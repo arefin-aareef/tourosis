@@ -31,8 +31,17 @@ async function run() {
     const reviewCollection = client.db("tourosisDB").collection("review");
     const cartCollection = client.db("tourosisDB").collection("carts");
 
+    app.get('/users', async(req, res) => {
+      const result = await usersCollection.find().toArray()
+      res.send(result)
+    })
     app.post('/users', async(req, res) => {
       const user = req.body;
+      const query = {email: user.email}
+      const existingUser = await usersCollection.findOne(query)
+      if(existingUser){
+        return res.send({message: 'User Already Exists'})
+      }
       const result = await usersCollection.insertOne(user)
       res.send(result)
     })
