@@ -14,6 +14,7 @@ import Hotel from "../pages/Hotel/Hotel/Hotel";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import Tour from "../pages/Tour/Tour/Tour";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
     {
@@ -52,7 +53,7 @@ export const router = createBrowserRouter([
     },
     {
       path: 'dashboard',
-      element: <Dashboard></Dashboard>,
+      element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
       children: [
         {
           path: "home",

@@ -27,8 +27,15 @@ async function run() {
     await client.connect();
 
     const tourCollection = client.db("tourosisDB").collection("tour");
+    const usersCollection = client.db("tourosisDB").collection("users");
     const reviewCollection = client.db("tourosisDB").collection("review");
     const cartCollection = client.db("tourosisDB").collection("carts");
+
+    app.post('/users', async(req, res) => {
+      const user = req.body;
+      const result = await usersCollection.insertOne(user)
+      res.send(result)
+    })
 
     app.get('/tour', async(req, res) => {
         const result = await tourCollection.find().toArray()
