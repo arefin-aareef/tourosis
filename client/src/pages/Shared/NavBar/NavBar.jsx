@@ -2,13 +2,13 @@ import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 import "./NavBar.css";
-import { AiOutlineShoppingCart } from 'react-icons/ai';
-import useCart from "../../../hooks/useCart";
+// import { AiOutlineShoppingCart } from 'react-icons/ai';
+// import useCart from "../../../hooks/useCart";
 
 
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
-  const [cart] = useCart()
+  // const [cart] = useCart()
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -60,10 +60,11 @@ const NavBar = () => {
       {
         user ? <li className="my-auto">
         <Link to="/dashboard/home" className="nav-link">
-          <button className="flex">
+          {/* <button className="flex">
             <AiOutlineShoppingCart />
             <div className="badge badge-secondary">+{cart?.length || 0}</div>
-          </button>
+          </button> */}
+          Dashboard
         </Link>
       </li> : <></>
       }

@@ -4,7 +4,10 @@ import {
 import Dashboard from "../Layout/Dashboard";
 import Main from "../Layout/Main";
 import Bookings from "../pages/Bookings/Bookings/Bookings";
+import AddTour from "../pages/Dashboard/AddTour/AddTour";
+import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
 import HomeDashboard from "../pages/Dashboard/HomeDashboard/HomeDashboard";
+import ManageTour from "../pages/Dashboard/ManageTour/ManageTour";
 import MyCart from "../pages/Dashboard/MyCart/MyCart";
 import PaymentHistory from "../pages/Dashboard/PaymentHistory/PaymentHistory";
 import Reservations from "../pages/Dashboard/Reservations/Reservations";
@@ -60,12 +63,24 @@ export const router = createBrowserRouter([
           element: <HomeDashboard></HomeDashboard>
         },
         {
-          path: "mycart",
-          element: <MyCart></MyCart>
+          path: "addtour",
+          element: <AddTour></AddTour>
+        },
+        {
+          path: "managetour",
+          element: <ManageTour></ManageTour>
+        },
+        {
+          path: "allusers",
+          element: <AllUsers></AllUsers>
         },
         {
           path: "reservation",
           element: <Reservations></Reservations>
+        },
+        {
+          path: "mycart",
+          element: <MyCart></MyCart>
         },
         {
           path: "payment",
