@@ -32,7 +32,7 @@ const Bookings = () => {
         description="Elevate your travel planning with our seamless online tour booking services."
       ></Cover>
       <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="">
-      <TabList className="text-white bg-black mb-4 p-4 text-center text-lg bg-opacity-70 shadow-md sticky top-[64px] lg:top-[76px] z-10">
+      <TabList className="text-white bg-[#2B3440] mb-4 p-4 text-center text-lg shadow-md sticky top-[64px] lg:top-[76px] z-10">
           <Tab >Adventure</Tab>
           <Tab >Beach</Tab>
           <Tab >Nature</Tab>

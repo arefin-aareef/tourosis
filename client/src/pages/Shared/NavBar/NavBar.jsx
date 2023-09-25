@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 import "./NavBar.css";
@@ -9,6 +9,18 @@ import useCart from "../../../hooks/useCart";
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
   const [cart] = useCart()
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if(window.scrollY > 10) {
+        setScrolled(true)
+      } else 
+      setScrolled(false)
+    }
+    window.addEventListener("scroll", onScroll)
+    return () => window.removeEventListener("scroll", onScroll)
+  })
 
   const handleLogOut = () => {
     logOut()
@@ -19,7 +31,7 @@ const NavBar = () => {
 
 
   const navOptions = (
-    <>
+    <div className="flex font-semibold">
       <li className="">
         <Link to="/" className="nav-link">
           Home
@@ -53,10 +65,10 @@ const NavBar = () => {
           </button>
         </Link>
       </li>
-    </>
+    </div>
   );
   return (
-    <div className="navbar z-20 fixed bg-black bg-opacity-70 text-white max-w-screen-xl ">
+    <div className={`navbar px-5 z-20 fixed bg-transparent text-white max-w-screen-xl ${scrolled ? "scrolled " : "transition-all duration-500 ease-out"}`}>
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -79,7 +79,7 @@ const MyCart = () => {
           <td>
            {item.tour_name}
             <br/>
-            <span className="badge badge-ghost badge-sm">{item.tour_details}</span>
+            <span>{item.tour_details}</span>
           </td>
           <td className="text-end">${item.price}</td>
           <td>
