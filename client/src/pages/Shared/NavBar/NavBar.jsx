@@ -57,14 +57,16 @@ const NavBar = () => {
           Bookings
         </Link>
       </li>
-      <li className="my-auto">
+      {
+        user ? <li className="my-auto">
         <Link to="/dashboard/home" className="nav-link">
           <button className="flex">
             <AiOutlineShoppingCart />
             <div className="badge badge-secondary">+{cart?.length || 0}</div>
           </button>
         </Link>
-      </li>
+      </li> : <></>
+      }
     </div>
   );
   return (

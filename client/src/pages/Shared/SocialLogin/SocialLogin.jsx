@@ -1,12 +1,15 @@
 import { useContext } from "react";
 import { FaGoogle } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 
 const SocialLogin = () => {
   const { googleSignIn } = useContext(AuthContext);
 
   const navigate = useNavigate();
+  const location = useLocation()
+
+  const from = location.state?.from?.pathname || "/"
 
   const handleGoogleSignIn = () => {
     googleSignIn().then((result) => {
@@ -26,7 +29,7 @@ const SocialLogin = () => {
       })
         .then((res) => res.json())
         .then(() => {
-          navigate('/');
+            navigate(from, { replace: true })
         });
     });
   };

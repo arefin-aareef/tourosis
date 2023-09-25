@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from 'sweetalert2'
 import SocialLogin from "../Shared/SocialLogin/SocialLogin";
@@ -17,9 +17,7 @@ const SignUp = () => {
 
   const {createUser, updateUserProfile} = useContext(AuthContext)
   const navigate = useNavigate()
-  const location = useLocation()
- 
-  const from = location.state?.from?.pathname || "/"
+
 
   const onSubmit = (data) => {
     createUser(data.email, data.password)
@@ -47,7 +45,7 @@ const SignUp = () => {
               showConfirmButton: false,
               timer: 1500
             })
-            navigate(from, { replace: true })
+            navigate('/')
           }
         })
         
