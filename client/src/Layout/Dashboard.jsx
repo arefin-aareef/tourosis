@@ -3,12 +3,14 @@ import { FaBars, FaCalendarAlt, FaHome, FaMailBulk, FaShoppingBag, FaShoppingCar
 import { AiOutlineBars, AiOutlineFileAdd, AiOutlineUser } from 'react-icons/ai';
 import { MdManageHistory } from 'react-icons/md';
 import useCart from "../hooks/useCart";
+import useAdmin from "../hooks/useAdmin";
 
 
 const Dashboard = () => {
   const [cart] = useCart()
   // TODO: 
-  const isAdmin = true;
+  // const isAdmin = true;
+  const [isAdmin] = useAdmin()
 
 
 

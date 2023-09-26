@@ -3,12 +3,21 @@ import { Helmet } from "react-helmet-async";
 import { FaTrashAlt } from "react-icons/fa";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import Swal from 'sweetalert2'
+import useAxiosSecure from "../../../hooks/useAxiosSecure";
 
 
 const AllUsers = () => {
+  // const { data: users = [], refetch } = useQuery(["users"], async () => {
+  //   const res = await fetch("http://localhost:5000/users");
+  //   return res.json();
+  // });
+  // console.log('check user', users);
+
+  const axiosSecure = useAxiosSecure()
   const { data: users = [], refetch } = useQuery(["users"], async () => {
-    const res = await fetch("http://localhost:5000/users");
-    return res.json();
+    const res = await axiosSecure.get('/users');
+    console.log('check user', res.data);
+    return res.data;
   });
 
   const handleMakeAdmin = user => {
